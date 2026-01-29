@@ -12,12 +12,11 @@ allows users to:
 - Database: PostgreSQL
 - Infra: Docker & docker-compose
 
+🎥 Demo: https://youtu.be/RhB4RcTE2PY
+
 ## Running locally
 ```bash
-git clone <repo>
+git clone https://github.com/mark-mansour-90/knowledgeGraph
 cd knowledgeGraph
 cp server/.env.example server/.env
 docker compose up --build
-
-
-🎥 Demo: https://youtu.be/RhB4RcTE2PY
