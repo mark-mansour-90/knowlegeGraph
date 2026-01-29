@@ -10,6 +10,14 @@ allows users to:
 - Frontend: React + TypeScript + react-force-graph
 - Backend: Node.js + Express + TypeScript
 - Database: PostgreSQL
+- Infra: Docker & docker-compose
+
+## Running locally
+```bash
+git clone <repo>
+cd knowledgeGraph
+cp server/.env.example server/.env
+docker compose up --build
 
 
 🎥 Demo: https://youtu.be/RhB4RcTE2PY
