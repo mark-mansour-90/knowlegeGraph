@@ -20,3 +20,6 @@ git clone https://github.com/mark-mansour-90/knowledgeGraph
 cd knowledgeGraph
 cp server/.env.example server/.env
 docker compose up --build
+```
+Frontend: http://localhost:5173
+Backend: http://localhost:4000
